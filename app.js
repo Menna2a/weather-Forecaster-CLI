@@ -1,5 +1,5 @@
 const request = require("request")
-const forecast = require("./data1/forcast")
+const forecast = require("./data1/forecast")
 const geocode = require("./data1/geocode")
 
 geocode(process.argv[2], (error, data) => {
